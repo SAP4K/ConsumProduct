@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/sap4k/source/repos/project2/project2/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c2b9ad828adcd59e95b8d4d87e5f836584e205e2f0ea4cdc3ae9662921b4193e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/sap4k/source/repos/project2/project2/production.h"
+          },
+          "hashes": {
+            "sha-256": "c42267b6307c5396c908a95915b28f7fe30688c0685b00f9b2f91f58f77a5582"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/sap4k/source/repos/project2/project2/product.h"
+          },
+          "hashes": {
+            "sha-256": "ef56794c79abdfddb20faa23daad1412e8e5d4c7bed7a8d676dd1e8efd9250ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/sap4k/source/repos/project2/project2/console.h"
+          },
+          "hashes": {
+            "sha-256": "fab9fdb86583e8e1ee8c0c87b6145254ad7118720fa788af63f4461d13bdbfd5"
+          }
+        }
+      ]
+    }
+  ]
+}
